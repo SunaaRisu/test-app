@@ -9,6 +9,7 @@ RUN apt update -y \
     && apt-get clean
 
 EXPOSE 80
+EXPOSE 443
 
 STOPSIGNAL SIGTERM
 
